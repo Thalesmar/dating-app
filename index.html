@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Dating App</title>
+</head>
+<body>
+  <script src="script.js"></script>
+  <header>
+    <div class="header">
+      <a href="#">
+        <img src="img/logo.png" class="logo">
+      </a>
+      <div class="menu-toggle" onclick="toggleMenu()"> <!-- Hamburger Icon -->
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu" id="menu">
+        
+        <nav>
+
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+    <div class="button-container">
+        <div class="log">
+            <a href="#" class="login">Login</a>
+        </div>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="swpe">
+        <h1 class="swipe">Swipe Right®</h1>
+      </div>
+      <div>
+        <button class="button-29" role="button">GET STARTED</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-section">
+      <h4>Legal</h4>
+      <a href="#">Privacy</a>
+      <a href="#">Consumer Health Data Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">Cookie Policy</a>
+      <a href="#">Intellectual Property</a>
+    </div>
+    <div class="footer-section">
+      <h4>Careers</h4>
+      <a href="#">Careers Portal</a>
+      <a href="#">Tech Blog</a>
+    </div>
+    <div class="footer-section">
+      <h4>Social</h4>
+      <div class="social-icons">
+        <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h4>FAQ</h4>
+      <a href="#">FAQ</a>
+      <a href="#">Destinations</a>
+      <a href="#">Press Room</a>
+      <a href="#">Contact</a>
+      <a href="#">Promo Code</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      menu.classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
+
